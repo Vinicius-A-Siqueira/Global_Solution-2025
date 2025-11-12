@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F6BE8CC-41E6-F1C6-47E5-7AB7819816D2" name="USUARIO_CONQUISTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:56:28 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario_conquista" id="14D28588-4A91-5766-DC77-8F95A1187196">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:56:36 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="79D69B12-229D-9D02-2748-DECE018713F6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:57:25 UTC</createdTime>
+<generatorID>E302737B-FC0E-5728-AA12-10AB0E130520</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<referedAttribute>413DBCFB-B972-4A1C-1A8B-330E66A9DE93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conquista" id="7D41E165-18FF-8324-DC4E-F1F0E5AEF7F6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:57:31 UTC</createdTime>
+<generatorID>07A14E94-1AFA-868D-BE73-8B184A6D2423</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<referedAttribute>F2F98C7F-EA09-DF57-A72D-ECEE62C26BFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_conquista " id="18FB7BF6-808E-0CA3-885D-370409905CF1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:56:43 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pontos_ganhos" id="FFCFD26D-F56C-117C-4628-78E9B7A8AB07">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:56:53 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DA5604E-B59A-8F21-2153-6359927838B6" name="USUARIO_CONQUISTA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:56:41 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14D28588-4A91-5766-DC77-8F95A1187196</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

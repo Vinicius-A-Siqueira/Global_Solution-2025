@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF743DA0-AA23-DE41-01E0-88327DBC8010" name="EMPRESA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>9A44E707-DC23-38AB-48EE-182E6DD932EA</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empresa" id="7389929F-E2A7-331A-1C4B-9BD0D703F4A9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>B7BE10E9-4E1E-BC82-0110-3F7A9F7955CD</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_empresa" id="111C3E93-D594-1D80-C628-B9ADBD54CFEF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>7F269EA0-9D84-AB9E-7BEB-51DA51E6E9CB</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="0F2AC058-6C7F-12E0-A17A-10E4953EE245">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>C9695A5D-20AB-CA1A-B278-47F0993493F7</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="5D31C868-30C2-6807-A5FC-85D43E3A32F9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>BFA7D1E0-9886-E7BD-7481-7BA1805AE673</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="C75350BC-3420-0562-20F6-49CC3850838B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>80676DAE-44FC-E5FC-D99B-F4D277849BA3</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_contato" id="409B17B2-BCE0-8E64-DDF5-88AD51242BEA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>BA92B9D5-0E4B-7A38-82C9-C57D23EF5432</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cadastro" id="D4F12F8B-5946-5249-C26E-3F034B3EAE85">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>573A95B7-C4BA-E2FF-95CD-1BE3F4B763D9</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="870BDFBE-462D-C1EE-646E-09E7C552354E" name="EMPRESA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>EF8512FD-2FC0-F4D8-BEDC-1F668936E449</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7389929F-E2A7-331A-1C4B-9BD0D703F4A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAC7378D-FCBE-727B-3B82-E29554442983" name="EMPRESA__UN">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>354B0942-4A9F-7252-8CDA-D986CDA00075</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F2AC058-6C7F-12E0-A17A-10E4953EE245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

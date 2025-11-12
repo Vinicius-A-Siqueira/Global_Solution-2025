@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1D6F8DB6-137E-8938-AA38-94D56658B30B" containerWithKeyObject="20B6F2EC-58A9-7E31-37BA-20211403B11F" localFKIndex="3249DF07-2C19-AF72-8F84-89F1DF985E01" name="SESSAO_APOIO_PROFISSIONAL_SAUDE_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>ACFA66AF-DB4B-CCB3-F12E-F7890F2F4946</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<referredTableLongName>PROFISSIONAL_SAUDE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2E4829B-1BD4-7709-0A78-AB710A19D368</referredTableID>
+<keyObject>9ACAD97E-D997-C6FE-48FF-80F7EB8A0DA9</keyObject>
+<referredKeyID>9ACAD97E-D997-C6FE-48FF-80F7EB8A0DA9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_profissional,disponivel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

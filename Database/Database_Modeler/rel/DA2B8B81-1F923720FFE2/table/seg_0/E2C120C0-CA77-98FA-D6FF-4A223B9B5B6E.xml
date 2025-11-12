@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2C120C0-CA77-98FA-D6FF-4A223B9B5B6E" name="USUARIO_EMPRESA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>C4BF4C63-652D-0F63-9D3E-A209C5144614</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario_empresa" id="1ED3ADDF-29B4-62DB-2B2D-71F0D1FFF3CE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>F8BBE34A-B992-143E-0015-B49EC0178A7C</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="43ED2BF3-3782-035D-C76D-04C35E0912DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>B67CC92F-4230-5067-7DF8-B79D132E54F7</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5066E55-5FAF-1EE9-30ED-9302AE0AF55E" referredColumn="6CD77C08-8949-6DE7-78F4-0F001FDC9CD8"/>
+</associations>
+</Column>
+<Column name="EMPRESA_id_empresa" id="869306AA-5E05-486F-96A1-98453D580928">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>D138767E-F0F6-8655-2264-5740948A2F2F</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EA17294-A0ED-8E69-233B-809C129AED05" referredColumn="7389929F-E2A7-331A-1C4B-9BD0D703F4A9"/>
+</associations>
+</Column>
+<Column name="cargo" id="AA5BD719-8056-DB1C-142F-2EC8009662C0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>EF017DEF-32A1-A4E9-D0F2-E0C371E407DD</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_vinculo" id="DCCC2077-E8DA-EBC8-3F74-287FFE50329E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>84561E9B-090E-0F3B-FCFD-20E3815338F8</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_vinculo" id="8544FFA1-C93C-1D61-C15C-4D1B02718499">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>2DEB615D-19ED-4086-B5ED-960AF46480BD</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13E10150-944F-EEDC-1676-400C826BEF6D" name="USUARIO_EMPRESA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>055627DB-1CB1-4282-36A0-660F3CC252DE</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ED3ADDF-29B4-62DB-2B2D-71F0D1FFF3CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95B71362-473F-9E3E-931A-0356D86C5C65" name="USUARIO_EMPRESA_USUARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>83B4A402-25AB-57ED-7343-5383EBDABE18</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43ED2BF3-3782-035D-C76D-04C35E0912DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83676C42-431E-6E34-B2C7-BD751801F25C" name="USUARIO_EMPRESA_EMPRESA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>9061514D-B567-DB82-3214-48861597EE65</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="869306AA-5E05-486F-96A1-98453D580928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B36C9C4A-291E-F55F-DAF4-3ADC9E3424C5" name="REGISTRO_BEMESTAR">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:19:59 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_registro" id="779E09F8-89EA-689C-4629-5EF71A393B44">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:20:04 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="726C25A0-ACCC-38EF-D214-A9BB9C459C6A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:23:59 UTC</createdTime>
+<generatorID>34971DFF-C78A-465E-5448-D54B8DCD1CA2</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<referedAttribute>413DBCFB-B972-4A1C-1A8B-330E66A9DE93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_registro" id="64BB4389-3F6E-9157-9577-CBC0C398F7AB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:20:25 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_humor" id="B4EE2451-7E15-6FEB-C377-FF05077A0E78">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:20:53 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_estresse" id="59B91267-264A-A73D-208F-BAA073A0F0E3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:21:07 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_energia" id="916ADDD3-A0EB-3698-F39F-A8C007BFD1E9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:21:24 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_sono" id="82783034-F093-71AF-7985-486905CECCB6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:21:31 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qualidade_sono" id="3A0ED920-EF74-B84B-551C-D86214FE1EAE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:21:52 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacoes" id="994E5F38-610A-88DD-860D-3FE7C734176A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:22:27 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61E68735-74DD-164B-9CD7-1E6E9D537521" name="REGISTRO_BEMESTAR PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:20:24 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>779E09F8-89EA-689C-4629-5EF71A393B44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F5D3067-AD56-E6A7-9DA8-3A9F16760A95" name="SESSAO_APOIO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:01:19 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sessao " id="A0A04DDA-068D-D7A4-DFF7-A872EE8EFD69">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:01:26 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="A80E61D5-B019-27A5-0201-50A22140B16B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:03:27 UTC</createdTime>
+<generatorID>FA2DEA35-4BC8-810F-E726-918A32B3A5E3</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<referedAttribute>413DBCFB-B972-4A1C-1A8B-330E66A9DE93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profissional" id="6F2B0BF5-41EC-2B95-393E-18B19C3B9FBE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:03:36 UTC</createdTime>
+<generatorID>ACFA66AF-DB4B-CCB3-F12E-F7890F2F4946</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<referedAttribute>856142D6-8AAB-10C5-DDB4-6763D6474DBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_sessao" id="BEC23928-3CB2-8569-E6FA-175897F539F5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:01:38 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracao_minutos" id="D510C338-E7B4-2E65-93B9-4E7ED10FFFD8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:01:49 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_sessao" id="E2939749-265E-513E-A4C4-54FDFC09EA9E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:02:07 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacoes" id="F388F0FE-FD2A-FE6A-D02C-C1F6CCEFB007">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:02:27 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="disponivel" id="D613D369-6227-9F37-B37B-53325E784EBE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:03:36 UTC</createdTime>
+<generatorID>ACFA66AF-DB4B-CCB3-F12E-F7890F2F4946</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<referedAttribute>74AD5185-4F2F-EE72-C904-3467BC342487</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="14FD899B-7111-A167-FEE3-D9B0D45FA3C8" name="SESSAO_APOIO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:01:37 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0A04DDA-068D-D7A4-DFF7-A872EE8EFD69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

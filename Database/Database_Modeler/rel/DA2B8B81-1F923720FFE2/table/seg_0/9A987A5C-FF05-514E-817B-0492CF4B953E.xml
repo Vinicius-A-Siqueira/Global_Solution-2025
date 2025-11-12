@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A987A5C-FF05-514E-817B-0492CF4B953E" name="USUARIO_CONQUISTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>6F6BE8CC-41E6-F1C6-47E5-7AB7819816D2</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario_conquista" id="D65418AE-5AC2-7018-01B3-78580419ABE7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>14D28588-4A91-5766-DC77-8F95A1187196</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="B08601BB-3378-B0D4-1B59-FA21D7711C22">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>79D69B12-229D-9D02-2748-DECE018713F6</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFACB53B-E969-0B16-601A-23682320BC2F" referredColumn="6CD77C08-8949-6DE7-78F4-0F001FDC9CD8"/>
+</associations>
+</Column>
+<Column name="CONQUISTA_id_conquista" id="B912AD1F-D328-CB76-9760-BF77E22DA839">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>7D41E165-18FF-8324-DC4E-F1F0E5AEF7F6</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCD7E14D-3E77-F01C-D8FD-855712B2534B" referredColumn="A30B2BDE-7D48-3C32-9346-B78EEE4A75D2"/>
+</associations>
+</Column>
+<Column name="data_conquista" id="1D7A1B6C-1396-1871-C89A-95BB5AEE99ED">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>18FB7BF6-808E-0CA3-885D-370409905CF1</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pontos_ganhos" id="9D588115-6808-8FBC-E26E-E216165E0CCA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>FFCFD26D-F56C-117C-4628-78E9B7A8AB07</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23A48CA9-EE4B-2302-4ED4-0ACCB390B18A" name="USUARIO_CONQUISTA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>4DA5604E-B59A-8F21-2153-6359927838B6</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D65418AE-5AC2-7018-01B3-78580419ABE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C19D4292-ECE9-BE02-6B0E-27A81F2F11BB" name="USUARIO_CONQUISTA_CONQUISTA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>07A14E94-1AFA-868D-BE73-8B184A6D2423</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B912AD1F-D328-CB76-9760-BF77E22DA839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D38CF618-E7A2-B471-856C-57FCC3A72832" name="USUARIO_CONQUISTA_USUARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>E302737B-FC0E-5728-AA12-10AB0E130520</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B08601BB-3378-B0D4-1B59-FA21D7711C22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

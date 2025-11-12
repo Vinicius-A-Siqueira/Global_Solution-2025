@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20B6F2EC-58A9-7E31-37BA-20211403B11F" name="SESSAO_APOIO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>4F5D3067-AD56-E6A7-9DA8-3A9F16760A95</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sessao" id="9BB4A614-D774-E5A2-8D44-F8A5DA445BEA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>A0A04DDA-068D-D7A4-DFF7-A872EE8EFD69</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="58E1CC4B-C1EB-E757-4B6F-EA6303FE0851">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>A80E61D5-B019-27A5-0201-50A22140B16B</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CA87AB6-1A66-10F6-A1BC-9D8A579826F6" referredColumn="6CD77C08-8949-6DE7-78F4-0F001FDC9CD8"/>
+</associations>
+</Column>
+<Column name="PROFISSIONAL_SAUDE_id_profissional" id="EF337120-EACE-43EB-299F-2F525E9D68F5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>6F2B0BF5-41EC-2B95-393E-18B19C3B9FBE</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D6F8DB6-137E-8938-AA38-94D56658B30B" referredColumn="B0E0C9D3-96E0-A826-FF83-4A7A70918C11"/>
+</associations>
+</Column>
+<Column name="data_sessao" id="1B74CBD8-42EC-7B65-C8F9-9E24704C0095">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>BEC23928-3CB2-8569-E6FA-175897F539F5</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracao_minutos" id="56DF4214-524E-E3AF-D70B-F666C4D2D692">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>D510C338-E7B4-2E65-93B9-4E7ED10FFFD8</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_sessao" id="B6EBA673-EA57-FBE2-8007-08A2DE2A0E5A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>E2939749-265E-513E-A4C4-54FDFC09EA9E</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacoes" id="7663EEC5-847D-FEF8-700A-FA8BD53E886F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>F388F0FE-FD2A-FE6A-D02C-C1F6CCEFB007</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFISSIONAL_SAUDE_disponivel" id="82025BD3-F197-766F-5783-BE525D96892F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>D613D369-6227-9F37-B37B-53325E784EBE</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D6F8DB6-137E-8938-AA38-94D56658B30B" referredColumn="1AF355CC-627C-9D7D-AAF1-D06E4C23D056"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D697C674-8936-F268-FDC3-DF8B44C4DD49" name="SESSAO_APOIO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>14FD899B-7111-A167-FEE3-D9B0D45FA3C8</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BB4A614-D774-E5A2-8D44-F8A5DA445BEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FF9FA49-1BD4-4C54-CF8A-36481371C0F1" name="SESSAO_APOIO_USUARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>FA2DEA35-4BC8-810F-E726-918A32B3A5E3</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58E1CC4B-C1EB-E757-4B6F-EA6303FE0851"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3249DF07-2C19-AF72-8F84-89F1DF985E01" name="SESSAO_APOIO_PROFISSIONAL_SAUDE_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>ACFA66AF-DB4B-CCB3-F12E-F7890F2F4946</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF337120-EACE-43EB-299F-2F525E9D68F5"/>
+<colUsage columnID="82025BD3-F197-766F-5783-BE525D96892F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

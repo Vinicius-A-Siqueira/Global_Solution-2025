@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D08B910-546B-107F-8261-E0D3D49AE9DB" name="RECOMENDACAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>178F43E3-359B-1BED-2404-A15251E7C18F</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_recomendacao" id="CBFB52B0-431E-BA02-360F-AA255B8B35A1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>ECF2A2A8-7506-EAC3-1809-0A82B8A9ADF1</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_RECOMENDACAO_id_categoria" id="A56379B3-CC1B-C5C8-46BD-6045C6193A99">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>29C2212E-3627-1DE2-5595-FD20DEB4779D</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F70E81C0-CF7A-DF36-B005-B8DD9EB4F2A7" referredColumn="F66C8318-22AB-1CF9-E7D9-26D013D82B26"/>
+</associations>
+</Column>
+<Column name="titulo" id="5A5A9307-0188-25DE-9A90-185424A54BF1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>722466E0-6813-2795-95A1-EF7F627A8653</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="E29FA9AD-B73D-DAD4-12A2-37125CBE1188">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>E213B46C-EFFC-5C83-A546-F191160CED01</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_recomendacao" id="E0D4C03D-2D29-6BAA-6CE8-1241129C1639">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>D6F628E7-5B06-3DF0-E911-B869EAD06A54</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80BDC4E8-82F8-040D-5472-27433F181E99" name="RECOMENDACAO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>FC9E40A6-CE02-1138-F3B1-7E652D442E59</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBFB52B0-431E-BA02-360F-AA255B8B35A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDB57B27-312F-44AA-8571-7F338B3144E8" name="RECOMENDACAO_CATEGORIA_RECOMENDACAO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>E551CA2D-324D-AA1F-D4F4-E4DFA250A1B4</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A56379B3-CC1B-C5C8-46BD-6045C6193A99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

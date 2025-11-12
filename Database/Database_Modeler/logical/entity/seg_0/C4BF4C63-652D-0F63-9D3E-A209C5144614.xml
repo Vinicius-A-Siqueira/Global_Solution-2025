@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4BF4C63-652D-0F63-9D3E-A209C5144614" name="USUARIO_EMPRESA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:15:32 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario_empresa" id="F8BBE34A-B992-143E-0015-B49EC0178A7C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:15:52 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="B67CC92F-4230-5067-7DF8-B79D132E54F7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:24:30 UTC</createdTime>
+<generatorID>83B4A402-25AB-57ED-7343-5383EBDABE18</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<referedAttribute>413DBCFB-B972-4A1C-1A8B-330E66A9DE93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="D138767E-F0F6-8655-2264-5740948A2F2F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:24:39 UTC</createdTime>
+<generatorID>9061514D-B567-DB82-3214-48861597EE65</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<referedAttribute>B7BE10E9-4E1E-BC82-0110-3F7A9F7955CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo" id="EF017DEF-32A1-A4E9-D0F2-E0C371E407DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:16:16 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_vinculo" id="84561E9B-090E-0F3B-FCFD-20E3815338F8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:17:49 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_vinculo" id="2DEB615D-19ED-4086-B5ED-960AF46480BD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:18:13 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="055627DB-1CB1-4282-36A0-660F3CC252DE" name="USUARIO_EMPRESA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:16:14 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8BBE34A-B992-143E-0015-B49EC0178A7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D7DAC50-A3B7-A775-1E81-719479F3ABCF" name="CATEGORIA_RECOMENDACAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:25:29 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_categoria" id="7B0AC2AB-F1D2-F244-59AA-EB03A2029858">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:25:37 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_categoria" id="0FACC3D6-C01C-0C1B-4928-1330E7CEF772">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:25:50 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="EB557B76-711E-492D-5B98-D8E404B4AD5E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:26:14 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7549AAEA-0636-ED22-F173-D31634D1A47D" name="CATEGORIA_RECOMENDACAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:25:48 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B0AC2AB-F1D2-F244-59AA-EB03A2029858</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C4299FB0-4619-D678-FCFC-D55096F84CF3" name="Key_2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 13:27:19 UTC</createdTime>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<engineerTo>
+<item key="DA2B8B81-53B5-7260-DC06-1F923720FFE2" value="true"/>
+</engineerTo>
+<newElementsIDs>0FACC3D6-C01C-0C1B-4928-1330E7CEF772</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

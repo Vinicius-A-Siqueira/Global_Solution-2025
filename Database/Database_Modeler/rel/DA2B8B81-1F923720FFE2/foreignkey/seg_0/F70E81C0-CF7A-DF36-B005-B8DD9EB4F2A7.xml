@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F70E81C0-CF7A-DF36-B005-B8DD9EB4F2A7" containerWithKeyObject="5D08B910-546B-107F-8261-E0D3D49AE9DB" localFKIndex="BDB57B27-312F-44AA-8571-7F338B3144E8" name="RECOMENDACAO_CATEGORIA_RECOMENDACAO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-11-12 14:05:05 UTC</createdTime>
+<generatorID>E551CA2D-324D-AA1F-D4F4-E4DFA250A1B4</generatorID>
+<ownerDesignName>Database_Modeler</ownerDesignName>
+<referredTableLongName>CATEGORIA_RECOMENDACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>797008D9-BC4C-DB5C-6B10-FAE9F61D1168</referredTableID>
+<keyObject>16CA54AC-EA44-3EAF-3755-894D62E348B0</keyObject>
+<referredKeyID>16CA54AC-EA44-3EAF-3755-894D62E348B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
