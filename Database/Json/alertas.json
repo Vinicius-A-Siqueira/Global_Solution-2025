@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "alerta_1",
+    "id_usuario": 3,
+    "tipo": "Estresse Elevado",
+    "descricao": "Nível de estresse detectado em 7/10. Recomenda-se atividades de relaxamento.",
+    "nivel_gravidade": "ALTO",
+    "status": "EM_ANALISE",
+    "timestamp": "2025-11-14 09:36:36"
+  },
+  {
+    "_id": "alerta_2",
+    "id_usuario": 3,
+    "tipo": "Transição de Carreira",
+    "descricao": "Usuário em fase de mudança profissional. Ofereça suporte especial.",
+    "nivel_gravidade": "MEDIO",
+    "status": "PENDENTE",
+    "timestamp": "2025-11-14 09:36:36"
+  },
+  {
+    "_id": "alerta_3",
+    "id_usuario": 5,
+    "tipo": "Home Office",
+    "descricao": "Profissional em home office - verificar isolamento social.",
+    "nivel_gravidade": "MEDIO",
+    "status": "PENDENTE",
+    "timestamp": "2025-11-14 09:36:36"
+  },
+  {
+    "_id": "alerta_4",
+    "id_usuario": 8,
+    "tipo": "Trainee em Desenvolvimento",
+    "descricao": "Trainee em fase de transição para área tech - apoio contínuo.",
+    "nivel_gravidade": "MEDIO",
+    "status": "EM_ANALISE",
+    "timestamp": "2025-11-14 09:36:36"
+  },
+  {
+    "_id": "alerta_5",
+    "id_usuario": 3,
+    "tipo": "Estresse Elevado",
+    "descricao": "Nível de estresse detectado em 7/10. Recomenda-se atividades de relaxamento.",
+    "nivel_gravidade": "ALTO",
+    "status": "EM_ANALISE",
+    "timestamp": "2025-11-14 09:38:36"
+  },
+  {
+    "_id": "alerta_6",
+    "id_usuario": 3,
+    "tipo": "Transição de Carreira",
+    "descricao": "Usuário em fase de mudança profissional. Ofereça suporte especial.",
+    "nivel_gravidade": "MEDIO",
+    "status": "PENDENTE",
+    "timestamp": "2025-11-14 09:38:36"
+  },
+  {
+    "_id": "alerta_7",
+    "id_usuario": 5,
+    "tipo": "Home Office",
+    "descricao": "Profissional em home office - verificar isolamento social.",
+    "nivel_gravidade": "MEDIO",
+    "status": "PENDENTE",
+    "timestamp": "2025-11-14 09:38:36"
+  },
+  {
+    "_id": "alerta_8",
+    "id_usuario": 8,
+    "tipo": "Trainee em Desenvolvimento",
+    "descricao": "Trainee em fase de transição para área tech - apoio contínuo.",
+    "nivel_gravidade": "MEDIO",
+    "status": "EM_ANALISE",
+    "timestamp": "2025-11-14 09:38:36"
+  }
+]

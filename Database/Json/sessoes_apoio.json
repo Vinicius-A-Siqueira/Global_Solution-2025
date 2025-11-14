@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "sessao_1",
+    "id_usuario": 3,
+    "id_profissional": 1,
+    "data_sessao": "2025-11-14 14:00:00",
+    "duracao_minutos": 60,
+    "tipo_sessao": "individual",
+    "observacoes": "Discussão sobre transição de carreira"
+  },
+  {
+    "_id": "sessao_2",
+    "id_usuario": 3,
+    "id_profissional": 2,
+    "data_sessao": "2025-11-15 10:00:00",
+    "duracao_minutos": 45,
+    "tipo_sessao": "individual",
+    "observacoes": "Avaliação de bem-estar durante transição"
+  },
+  {
+    "_id": "sessao_3",
+    "id_usuario": 1,
+    "id_profissional": 5,
+    "data_sessao": "2025-11-14 15:30:00",
+    "duracao_minutos": 60,
+    "tipo_sessao": "individual",
+    "observacoes": "Coaching de liderança técnica"
+  },
+  {
+    "_id": "sessao_4",
+    "id_usuario": 2,
+    "id_profissional": 1,
+    "data_sessao": "2025-11-14 11:00:00",
+    "duracao_minutos": 45,
+    "tipo_sessao": "individual",
+    "observacoes": "Gestão de equipes em bem-estar"
+  },
+  {
+    "_id": "sessao_5",
+    "id_usuario": 1,
+    "id_profissional": 7,
+    "data_sessao": "2025-11-16 17:00:00",
+    "duracao_minutos": 90,
+    "tipo_sessao": "grupo",
+    "observacoes": "Terapia de grupo sobre bem-estar no trabalho"
+  },
+  {
+    "_id": "sessao_6",
+    "id_usuario": 5,
+    "id_profissional": 6,
+    "data_sessao": "2025-11-17 09:30:00",
+    "duracao_minutos": 30,
+    "tipo_sessao": "individual",
+    "observacoes": "Orientação nutricional para profissional em home office"
+  },
+  {
+    "_id": "sessao_7",
+    "id_usuario": 4,
+    "id_profissional": 8,
+    "data_sessao": "2025-11-14 18:00:00",
+    "duracao_minutos": 60,
+    "tipo_sessao": "individual",
+    "observacoes": "Meditação guiada para jovem profissional"
+  },
+  {
+    "_id": "sessao_8",
+    "id_usuario": 9,
+    "id_profissional": 9,
+    "data_sessao": "2025-11-15 14:00:00",
+    "duracao_minutos": 60,
+    "tipo_sessao": "individual",
+    "observacoes": "Sessão de psicologia positiva para liderança"
+  },
+  {
+    "_id": "sessao_9",
+    "id_usuario": 10,
+    "id_profissional": 1,
+    "data_sessao": "2025-11-16 10:00:00",
+    "duracao_minutos": 45,
+    "tipo_sessao": "individual",
+    "observacoes": "Apoio para inclusão e adaptação no trabalho"
+  },
+  {
+    "_id": "sessao_10",
+    "id_usuario": 11,
+    "id_profissional": 10,
+    "data_sessao": "2025-11-15 16:00:00",
+    "duracao_minutos": 60,
+    "tipo_sessao": "acompanhamento",
+    "observacoes": "Acompanhamento de arquiteto de software"
+  },
+  {
+    "_id": "sessao_11",
+    "id_usuario": 7,
+    "id_profissional": 3,
+    "data_sessao": "2025-11-14 19:00:00",
+    "duracao_minutos": 45,
+    "tipo_sessao": "emergencia",
+    "observacoes": "Sessão de emergência - suporte em crise"
+  }
+]

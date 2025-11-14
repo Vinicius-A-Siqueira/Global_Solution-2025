@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "registro_15",
+    "tipo": "registro_bemestar",
+    "id_usuario": 8,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 8,
+      "estresse": 4,
+      "energia": 7,
+      "sono_horas": 7,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Progredindo em trainee"
+  },
+  {
+    "_id": "registro_14",
+    "tipo": "registro_bemestar",
+    "id_usuario": 7,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 7,
+      "estresse": 5,
+      "energia": 6,
+      "sono_horas": 6.5,
+      "qualidade_sono": 7
+    },
+    "observacoes": "Foco em análise de dados"
+  },
+  {
+    "_id": "registro_13",
+    "tipo": "registro_bemestar",
+    "id_usuario": 6,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 8,
+      "estresse": 3,
+      "energia": 8,
+      "sono_horas": 8,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Dia produtivo com flexibilidade"
+  },
+  {
+    "_id": "registro_12",
+    "tipo": "registro_bemestar",
+    "id_usuario": 5,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 7,
+      "estresse": 4,
+      "energia": 7,
+      "sono_horas": 7.5,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Rotina equilibrada em home office"
+  },
+  {
+    "_id": "registro_11",
+    "tipo": "registro_bemestar",
+    "id_usuario": 4,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 8,
+      "estresse": 3,
+      "energia": 8,
+      "sono_horas": 7.5,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Aprendendo novas tecnologias"
+  },
+  {
+    "_id": "registro_10",
+    "tipo": "registro_bemestar",
+    "id_usuario": 4,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 9,
+      "estresse": 2,
+      "energia": 9,
+      "sono_horas": 8,
+      "qualidade_sono": 9
+    },
+    "observacoes": "Jovem profissional muito entusiasmada"
+  },
+  {
+    "_id": "registro_9",
+    "tipo": "registro_bemestar",
+    "id_usuario": 3,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 8,
+      "estresse": 4,
+      "energia": 7,
+      "sono_horas": 7.5,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Adaptando bem à nova área"
+  },
+  {
+    "_id": "registro_8",
+    "tipo": "registro_bemestar",
+    "id_usuario": 3,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 7,
+      "estresse": 5,
+      "energia": 7,
+      "sono_horas": 7,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Melhorando com acompanhamento profissional"
+  },
+  {
+    "_id": "registro_7",
+    "tipo": "registro_bemestar",
+    "id_usuario": 3,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 6,
+      "estresse": 7,
+      "energia": 5,
+      "sono_horas": 5.5,
+      "qualidade_sono": 6
+    },
+    "observacoes": "Estresse com transição de carreira"
+  },
+  {
+    "_id": "registro_6",
+    "tipo": "registro_bemestar",
+    "id_usuario": 2,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 8,
+      "estresse": 4,
+      "energia": 8,
+      "sono_horas": 8,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Colaboração produtiva com time"
+  },
+  {
+    "_id": "registro_5",
+    "tipo": "registro_bemestar",
+    "id_usuario": 2,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 8,
+      "estresse": 3,
+      "energia": 8,
+      "sono_horas": 8.5,
+      "qualidade_sono": 9
+    },
+    "observacoes": "Muito feliz com novos projetos de inclusão"
+  },
+  {
+    "_id": "registro_4",
+    "tipo": "registro_bemestar",
+    "id_usuario": 2,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 7,
+      "estresse": 6,
+      "energia": 7,
+      "sono_horas": 7,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Dia normal de trabalho"
+  },
+  {
+    "_id": "registro_3",
+    "tipo": "registro_bemestar",
+    "id_usuario": 1,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 9,
+      "estresse": 2,
+      "energia": 8,
+      "sono_horas": 8,
+      "qualidade_sono": 9
+    },
+    "observacoes": "Excelente dia! Bem descansado"
+  },
+  {
+    "_id": "registro_2",
+    "tipo": "registro_bemestar",
+    "id_usuario": 1,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 7,
+      "estresse": 5,
+      "energia": 6,
+      "sono_horas": 6.5,
+      "qualidade_sono": 7
+    },
+    "observacoes": "Trabalho pesado, um pouco cansado"
+  },
+  {
+    "_id": "registro_1",
+    "tipo": "registro_bemestar",
+    "id_usuario": 1,
+    "timestamp": "2025-11-14 09:30:17",
+    "indicadores": {
+      "humor": 8,
+      "estresse": 4,
+      "energia": 7,
+      "sono_horas": 7.5,
+      "qualidade_sono": 8
+    },
+    "observacoes": "Dia produtivo, sentindo-se energizado"
+  }
+]

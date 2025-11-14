@@ -1,0 +1,211 @@
+[
+  {
+    "_id": "usuario_1",
+    "tipo": "usuario",
+    "id_usuario": 1,
+    "nome": "João Silva - Dev Full Stack",
+    "email": "joao.silva@techcorp.com.br",
+    "idade": 35,
+    "genero": "Masculino",
+    "telefone": "11-98765-4321",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 3,
+      "humor_medio": 8,
+      "estresse_medio": 3.67,
+      "energia_media": 7,
+      "sono_medio": 7.33
+    }
+  },
+  {
+    "_id": "usuario_2",
+    "tipo": "usuario",
+    "id_usuario": 2,
+    "nome": "Maria Santos - Gerente RH",
+    "email": "maria.santos@techcorp.com.br",
+    "idade": 33,
+    "genero": "Feminino",
+    "telefone": "11-98765-4322",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 3,
+      "humor_medio": 7.67,
+      "estresse_medio": 4.33,
+      "energia_media": 7.67,
+      "sono_medio": 7.83
+    }
+  },
+  {
+    "_id": "usuario_3",
+    "tipo": "usuario",
+    "id_usuario": 3,
+    "nome": "Carlos Oliveira - Career Changer",
+    "email": "carlos.oliveira@greentech.com.br",
+    "idade": 37,
+    "genero": "Masculino",
+    "telefone": "11-98765-4323",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 3,
+      "humor_medio": 7,
+      "estresse_medio": 5.33,
+      "energia_media": 6.33,
+      "sono_medio": 6.67
+    }
+  },
+  {
+    "_id": "usuario_4",
+    "tipo": "usuario",
+    "id_usuario": 4,
+    "nome": "Ana Costa - Estagiária Dev",
+    "email": "ana.costa@startup.com.br",
+    "idade": 22,
+    "genero": "Feminino",
+    "telefone": "11-98765-4324",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 2,
+      "humor_medio": 8.5,
+      "estresse_medio": 2.5,
+      "energia_media": 8.5,
+      "sono_medio": 7.75
+    }
+  },
+  {
+    "_id": "usuario_5",
+    "tipo": "usuario",
+    "id_usuario": 5,
+    "nome": "Pedro Ferreira - Consultor",
+    "email": "pedro.ferreira@financeflow.com.br",
+    "idade": 30,
+    "genero": "Masculino",
+    "telefone": "11-98765-4325",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 1,
+      "humor_medio": 7,
+      "estresse_medio": 4,
+      "energia_media": 7,
+      "sono_medio": 7.5
+    }
+  },
+  {
+    "_id": "usuario_6",
+    "tipo": "usuario",
+    "id_usuario": 6,
+    "nome": "Juliana Rocha - Product Manager",
+    "email": "juliana.rocha@cloudsmile.com.br",
+    "idade": 34,
+    "genero": "Feminino",
+    "telefone": "11-98765-4326",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 1,
+      "humor_medio": 8,
+      "estresse_medio": 3,
+      "energia_media": 8,
+      "sono_medio": 8
+    }
+  },
+  {
+    "_id": "usuario_7",
+    "tipo": "usuario",
+    "id_usuario": 7,
+    "nome": "Lucas Gomes - Analista de Dados",
+    "email": "lucas.gomes@datadriven.com.br",
+    "idade": 32,
+    "genero": "Outro",
+    "telefone": "11-98765-4327",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 1,
+      "humor_medio": 7,
+      "estresse_medio": 5,
+      "energia_media": 6,
+      "sono_medio": 6.5
+    }
+  },
+  {
+    "_id": "usuario_8",
+    "tipo": "usuario",
+    "id_usuario": 8,
+    "nome": "Fernanda Souza - Trainee Tech",
+    "email": "fernanda.souza@futureworks.com.br",
+    "idade": 35,
+    "genero": "Feminino",
+    "telefone": "11-98765-4328",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 1,
+      "humor_medio": 8,
+      "estresse_medio": 4,
+      "energia_media": 7,
+      "sono_medio": 7
+    }
+  },
+  {
+    "_id": "usuario_9",
+    "tipo": "usuario",
+    "id_usuario": 9,
+    "nome": "Gustavo Alves - Tech Lead",
+    "email": "gustavo.alves@techcorp.com.br",
+    "idade": 40,
+    "genero": "Masculino",
+    "telefone": "11-98765-4329",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 0,
+      "humor_medio": 0,
+      "estresse_medio": 0,
+      "energia_media": 0,
+      "sono_medio": 0
+    }
+  },
+  {
+    "_id": "usuario_10",
+    "tipo": "usuario",
+    "id_usuario": 10,
+    "nome": "Camila Ribeiro - Designer Inclusivo",
+    "email": "camila.ribeiro@creativestudio.com.br",
+    "idade": 29,
+    "genero": "Feminino",
+    "telefone": "11-98765-4330",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 0,
+      "humor_medio": 0,
+      "estresse_medio": 0,
+      "energia_media": 0,
+      "sono_medio": 0
+    }
+  },
+  {
+    "_id": "usuario_11",
+    "tipo": "usuario",
+    "id_usuario": 11,
+    "nome": "Rafael Santos - Arquiteto de Software",
+    "email": "rafael.santos@techcorp.com.br",
+    "idade": 38,
+    "genero": "Masculino",
+    "telefone": "11-98765-4331",
+    "status_ativo": "S",
+    "data_cadastro": "2025-11-14",
+    "bem_estar": {
+      "total_registros": 0,
+      "humor_medio": 0,
+      "estresse_medio": 0,
+      "energia_media": 0,
+      "sono_medio": 0
+    }
+  }
+]

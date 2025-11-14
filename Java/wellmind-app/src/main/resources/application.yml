@@ -1,0 +1,72 @@
+spring:
+  application:
+    name: wellmind-api
+
+  # Oracle Database Configuration
+  datasource:
+    url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
+    username: ${DB_USER:rm551939}
+    password: ${DB_PASSWORD:270399}
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      connection-timeout: 20000
+
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+        format_sql: true
+        jdbc:
+          batch_size: 20
+          fetch_size: 50
+    show-sql: false
+
+  # Redis Cache Configuration
+  cache:
+    type: redis
+    redis:
+      time-to-live: 1800000
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  # RabbitMQ Configuration
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  # i18n Configuration
+  messages:
+    basename: messages
+    encoding: UTF-8
+
+  web:
+    locale: pt_BR
+
+# Server Configuration
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+# JWT Configuration
+app:
+  jwt:
+    secret: ${JWT_SECRET:sua_chave_secreta_super_segura_aqui_2024}
+    expiration: 86400000
+
+# Logging
+logging:
+  level:
+    root: INFO
+    com.wellmind: DEBUG
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG

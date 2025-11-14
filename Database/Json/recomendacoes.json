@@ -1,0 +1,123 @@
+[
+  {
+    "_id": "recomendacao_1",
+    "tipo": "recomendacao",
+    "titulo": "Meditação Diária de 10 Minutos",
+    "descricao": "Pratique meditação guiada pela manhã para reduzir estresse",
+    "categoria": {
+      "id": 1,
+      "nome": "Mindfulness e Meditação"
+    },
+    "tipo_conteudo": "video"
+  },
+  {
+    "_id": "recomendacao_2",
+    "tipo": "recomendacao",
+    "titulo": "Caminhada Matinal de 30 Minutos",
+    "descricao": "Caminhe todos os dias para aumentar disposição",
+    "categoria": {
+      "id": 2,
+      "nome": "Exercício Físico"
+    },
+    "tipo_conteudo": "exercicio"
+  },
+  {
+    "_id": "recomendacao_3",
+    "tipo": "recomendacao",
+    "titulo": "Técnica Pomodoro",
+    "descricao": "Use 25min trabalho + 5min pausa para produtividade",
+    "categoria": {
+      "id": 3,
+      "nome": "Gestão de Tempo"
+    },
+    "tipo_conteudo": "texto"
+  },
+  {
+    "_id": "recomendacao_4",
+    "tipo": "recomendacao",
+    "titulo": "Hidratação e Alimentação Balanceada",
+    "descricao": "Beba 2 litros de água e consuma alimentos nutritivos",
+    "categoria": {
+      "id": 4,
+      "nome": "Nutrição e Saúde"
+    },
+    "tipo_conteudo": "artigo"
+  },
+  {
+    "_id": "recomendacao_5",
+    "tipo": "recomendacao",
+    "titulo": "Curso: Python para Transformação Digital",
+    "descricao": "Aprenda Python para automação e análise de dados",
+    "categoria": {
+      "id": 5,
+      "nome": "Desenvolvimento Profissional"
+    },
+    "tipo_conteudo": "artigo"
+  },
+  {
+    "_id": "recomendacao_6",
+    "tipo": "recomendacao",
+    "titulo": "Reunião de Bem-estar em Grupo",
+    "descricao": "Participe semanalmente para conectar com colegas",
+    "categoria": {
+      "id": 6,
+      "nome": "Suporte Social"
+    },
+    "tipo_conteudo": "video"
+  },
+  {
+    "_id": "recomendacao_7",
+    "tipo": "recomendacao",
+    "titulo": "Higiene do Sono para Profissionais",
+    "descricao": "Mantenha rotina: 8 horas, evite telas 1h antes",
+    "categoria": {
+      "id": 7,
+      "nome": "Sono e Repouso"
+    },
+    "tipo_conteudo": "texto"
+  },
+  {
+    "_id": "recomendacao_8",
+    "tipo": "recomendacao",
+    "titulo": "Resiliência em Tempos de Mudança",
+    "descricao": "Workshop sobre como lidar com incertezas",
+    "categoria": {
+      "id": 8,
+      "nome": "Resiliência Emocional"
+    },
+    "tipo_conteudo": "video"
+  },
+  {
+    "_id": "recomendacao_9",
+    "tipo": "recomendacao",
+    "titulo": "Programa de Inclusão e Diversidade",
+    "descricao": "Conheça iniciativas de inclusão da organização",
+    "categoria": {
+      "id": 9,
+      "nome": "Inclusão e Diversidade"
+    },
+    "tipo_conteudo": "artigo"
+  },
+  {
+    "_id": "recomendacao_10",
+    "tipo": "recomendacao",
+    "titulo": "Comunicação Não-Violenta em Equipes",
+    "descricao": "Aprenda técnicas de comunicação efetiva",
+    "categoria": {
+      "id": 10,
+      "nome": "Comunicação Efetiva"
+    },
+    "tipo_conteudo": "audio"
+  },
+  {
+    "_id": "recomendacao_11",
+    "tipo": "recomendacao",
+    "titulo": "Liderança Distribuída no Mundo Ágil",
+    "descricao": "Modelos de liderança para trabalho remoto",
+    "categoria": {
+      "id": 11,
+      "nome": "Liderança Ágil"
+    },
+    "tipo_conteudo": "artigo"
+  }
+]
