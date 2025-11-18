@@ -28,7 +28,7 @@ public class CategoriaRecomendacaoController {
      * GET /api/v1/categoria
      */
     @GetMapping
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<List<CategoriaRecomendacaoDTO>> listar() {
         log.info("Listando categorias ativas");
 
@@ -41,7 +41,7 @@ public class CategoriaRecomendacaoController {
      * GET /api/v1/categoria/123
      */
     @GetMapping("/{id}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<CategoriaRecomendacaoDTO> buscarPorId(@PathVariable Long id) {
         log.info("Buscando categoria por ID: {}", id);
 
@@ -54,7 +54,7 @@ public class CategoriaRecomendacaoController {
      * GET /api/v1/categoria/nome/Meditação
      */
     @GetMapping("/nome/{nome}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<CategoriaRecomendacaoDTO> buscarPorNome(@PathVariable String nome) {
         log.info("Buscando categoria por nome: {}", nome);
 
@@ -67,7 +67,7 @@ public class CategoriaRecomendacaoController {
      * POST /api/v1/categoria
      */
     @PostMapping
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<CategoriaRecomendacaoDTO> criar(@Valid @RequestBody CreateCategoriaRecomendacaoDTO dto) {
         log.info("Criando nova categoria: {}", dto.getNomeCategoria());
 
@@ -80,7 +80,7 @@ public class CategoriaRecomendacaoController {
      * PUT /api/v1/categoria/123
      */
     @PutMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<CategoriaRecomendacaoDTO> atualizar(
             @PathVariable Long id,
             @Valid @RequestBody CreateCategoriaRecomendacaoDTO dto) {
@@ -96,7 +96,7 @@ public class CategoriaRecomendacaoController {
      * DELETE /api/v1/categoria/123
      */
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> desativar(@PathVariable Long id) {
         log.info("Desativando categoria: {}", id);
 

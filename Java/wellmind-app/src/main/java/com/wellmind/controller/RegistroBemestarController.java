@@ -42,7 +42,7 @@ public class RegistroBemestarController {
      * GET /api/v1/wellness/usuario/123?page=0&size=30
      */
     @GetMapping("/usuario/{usuarioId}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Page<RegistroBemestarDTO>> buscarPorUsuario(
             @PathVariable Long usuarioId,
             @RequestParam(defaultValue = "0") int page,
@@ -61,7 +61,7 @@ public class RegistroBemestarController {
      * GET /api/v1/wellness/usuario/123/ultimo
      */
     @GetMapping("/usuario/{usuarioId}/ultimo")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<RegistroBemestarDTO> buscarUltimo(@PathVariable Long usuarioId) {
         log.info("Buscando último registro do usuário: {}", usuarioId);
 
@@ -74,7 +74,7 @@ public class RegistroBemestarController {
      * GET /api/v1/wellness/estresse-alto?page=0&size=20
      */
     @GetMapping("/estresse-alto")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Page<RegistroBemestarDTO>> buscarComEstresseAlto(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "20") int size) {
@@ -92,7 +92,7 @@ public class RegistroBemestarController {
      * POST /api/v1/wellness
      */
     @PostMapping
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+   // @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<RegistroBemestarDTO> criar(@Valid @RequestBody CreateRegistroBemestarDTO dto) {
         log.info("Criando novo registro de bem-estar para usuário: {}", dto.getIdUsuario());
 
@@ -105,7 +105,7 @@ public class RegistroBemestarController {
      * GET /api/v1/wellness/alertas
      */
     @GetMapping("/alertas")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<List<RegistroBemestarDTO>> buscarComAlerta() {
         log.info("Buscando registros com alerta");
 
@@ -118,7 +118,7 @@ public class RegistroBemestarController {
      * GET /api/v1/wellness/usuario/123/media
      */
     @GetMapping("/usuario/{usuarioId}/media")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Map<String, Object>> calcularMedia(@PathVariable Long usuarioId) {
         log.info("Calculando média de bem-estar: {}", usuarioId);
 
@@ -144,7 +144,7 @@ public class RegistroBemestarController {
      * GET /api/v1/wellness/estatísticas/123
      */
     @GetMapping("/estatísticas/{empresaId}")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> gerarEstatísticas(@PathVariable Long empresaId) {
         log.info("Gerando estatísticas de bem-estar para empresa: {}", empresaId);
 

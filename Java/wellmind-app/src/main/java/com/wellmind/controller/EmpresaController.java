@@ -38,7 +38,7 @@ public class EmpresaController {
      * GET /api/v1/empresa?page=0&size=20
      */
     @GetMapping
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Page<EmpresaDTO>> listar(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "20") int size) {
@@ -56,7 +56,7 @@ public class EmpresaController {
      * GET /api/v1/empresa/123
      */
     @GetMapping("/{id}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<EmpresaDTO> buscarPorId(@PathVariable Long id) {
         log.info("Buscando empresa por ID: {}", id);
 
@@ -69,7 +69,7 @@ public class EmpresaController {
      * GET /api/v1/empresa/cnpj/12345678901234
      */
     @GetMapping("/cnpj/{cnpj}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<EmpresaDTO> buscarPorCnpj(@PathVariable String cnpj) {
         log.info("Buscando empresa por CNPJ: {}", cnpj);
 
@@ -82,7 +82,7 @@ public class EmpresaController {
      * GET /api/v1/empresa/nome/TechCorp?page=0&size=10
      */
     @GetMapping("/nome/{nome}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Page<EmpresaDTO>> buscarPorNome(
             @PathVariable String nome,
             @RequestParam(defaultValue = "0") int page,
@@ -101,7 +101,7 @@ public class EmpresaController {
      * POST /api/v1/empresa
      */
     @PostMapping
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<EmpresaDTO> criar(@Valid @RequestBody CreateEmpresaDTO dto) {
         log.info("Criando nova empresa: {}", dto.getNomeEmpresa());
 
@@ -114,7 +114,7 @@ public class EmpresaController {
      * PUT /api/v1/empresa/123
      */
     @PutMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<EmpresaDTO> atualizar(
             @PathVariable Long id,
             @Valid @RequestBody UpdateEmpresaDTO dto) {
@@ -130,7 +130,7 @@ public class EmpresaController {
      * DELETE /api/v1/empresa/123
      */
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
+   // @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> desativar(@PathVariable Long id) {
         log.info("Desativando empresa: {}", id);
 
@@ -143,7 +143,7 @@ public class EmpresaController {
      * GET /api/v1/empresa/ranking/colaboradores?page=0&size=10
      */
     @GetMapping("/ranking/colaboradores")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Page<EmpresaDTO>> buscarComMaisColaboradores(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
@@ -161,7 +161,7 @@ public class EmpresaController {
      * GET /api/v1/empresa/total/ativas
      */
     @GetMapping("/total/ativas")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Long> totalAtivas() {
         log.info("Contando empresas ativas");
 

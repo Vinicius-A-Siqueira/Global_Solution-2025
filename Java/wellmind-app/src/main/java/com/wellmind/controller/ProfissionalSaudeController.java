@@ -31,7 +31,7 @@ public class ProfissionalSaudeController {
      * GET /api/v1/profissional?page=0&size=20
      */
     @GetMapping
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Page<ProfissionalSaudeDTO>> listarDisponíveis(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "20") int size) {
@@ -49,7 +49,7 @@ public class ProfissionalSaudeController {
      * GET /api/v1/profissional/123
      */
     @GetMapping("/{id}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<ProfissionalSaudeDTO> buscarPorId(@PathVariable Long id) {
         log.info("Buscando profissional por ID: {}", id);
 
@@ -62,7 +62,7 @@ public class ProfissionalSaudeController {
      * GET /api/v1/profissional/especialidade/Psicologia?page=0&size=10
      */
     @GetMapping("/especialidade/{especialidade}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Page<ProfissionalSaudeDTO>> buscarPorEspecialidade(
             @PathVariable String especialidade,
             @RequestParam(defaultValue = "0") int page,
@@ -83,7 +83,7 @@ public class ProfissionalSaudeController {
      * GET /api/v1/profissional/especialidades
      */
     @GetMapping("/especialidades")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<List<String>> listarEspecialidades() {
         log.info("Listando especialidades");
 
@@ -96,7 +96,7 @@ public class ProfissionalSaudeController {
      * POST /api/v1/profissional
      */
     @PostMapping
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<ProfissionalSaudeDTO> criar(@Valid @RequestBody CreateProfissionalSaudeDTO dto) {
         log.info("Criando novo profissional: {}", dto.getNome());
 
@@ -109,7 +109,7 @@ public class ProfissionalSaudeController {
      * PUT /api/v1/profissional/123/disponibilidade?disponivel=true
      */
     @PutMapping("/{id}/disponibilidade")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<ProfissionalSaudeDTO> atualizarDisponibilidade(
             @PathVariable Long id,
             @RequestParam Boolean disponivel) {
@@ -125,7 +125,7 @@ public class ProfissionalSaudeController {
      * DELETE /api/v1/profissional/123
      */
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> desativar(@PathVariable Long id) {
         log.info("Desativando profissional: {}", id);
 
@@ -138,7 +138,7 @@ public class ProfissionalSaudeController {
      * GET /api/v1/profissional/total/disponíveis
      */
     @GetMapping("/total/disponíveis")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Long> totalDisponíveis() {
         log.info("Contando profissionais disponíveis");
 
