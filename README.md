@@ -6,6 +6,14 @@
 
 </div>
 
+![image](https://github.com/user-attachments/assets/6335eded-1ce5-41f1-8fbd-7921804f3f67)
+
+## 👥 Integrantes
+
+- **Gabriel Camargo** – RM557879  
+- **Kauan Felipe** – RM557954  
+- **Vinicius Alves** – RM551939  
+
 ---
 
 ## 📋 Índice
@@ -19,7 +27,6 @@
 - [Funcionalidades Principais](#-funcionalidades-principais)
 - [Entregas do Projeto](#-entregas-do-projeto)
 - [Como Executar](#-como-executar)
-- [Equipe](#-equipe)
 
 ---
 
@@ -332,21 +339,6 @@ expo start
 az login
 ./scripts/script-infra-azure.sh
 ```
-
----
-
-## 👥 Equipe
-
-**Desenvolvido por:**
-
-- Vinícius Siqueira - RM [SEU_RM]
-- [Nome do Integrante 2] - RM [RM]
-- [Nome do Integrante 3] - RM [RM]
-
-**Instituição:** FIAP - Faculdade de Informática e Administração  
-**Curso:** Análise e Desenvolvimento de Sistemas  
-**Período:** 2025.2
-
 ---
 
 ## 📹 Vídeos Demonstrativos
