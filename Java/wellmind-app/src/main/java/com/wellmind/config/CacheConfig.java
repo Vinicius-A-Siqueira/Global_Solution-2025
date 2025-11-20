@@ -67,6 +67,14 @@ public class CacheConfig implements CachingConfigurer {
     public ObjectMapper objectMapper() {
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
+<<<<<<< HEAD
+=======
+        // mapper.activateDefaultTyping(
+        //     LaissezFaireSubTypeValidator.instance,
+        //     ObjectMapper.DefaultTyping.NON_FINAL,
+        //     JsonTypeInfo.As.PROPERTY
+        // );
+>>>>>>> f01dfded1dbd18430d53af67d3d2c7c82f64d462
         return mapper;
     }
 

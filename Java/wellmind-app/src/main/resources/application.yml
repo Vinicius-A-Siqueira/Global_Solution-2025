@@ -40,7 +40,12 @@ spring:
 
   # Cache
   cache:
+<<<<<<< HEAD
     type: simple
+=======
+    type: simples
+
+>>>>>>> f01dfded1dbd18430d53af67d3d2c7c82f64d462
 
   # Mensagens i18n
   messages:

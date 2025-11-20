@@ -130,7 +130,11 @@ public class EmpresaController {
      * DELETE /api/v1/empresa/123
      */
     @DeleteMapping("/{id}")
+<<<<<<< HEAD
     //@PreAuthorize("hasRole('ADMIN')")
+=======
+   // @PreAuthorize("hasRole('ADMIN')")
+>>>>>>> f01dfded1dbd18430d53af67d3d2c7c82f64d462
     public ResponseEntity<Void> desativar(@PathVariable Long id) {
         log.info("Desativando empresa: {}", id);
 

@@ -13,6 +13,13 @@ spring:
       ddl-auto: validate
     show-sql: false
 
+<<<<<<< HEAD
+=======
+  cache:
+    redis:
+      time-to-live: 7200000
+
+>>>>>>> f01dfded1dbd18430d53af67d3d2c7c82f64d462
 server:
   port: 8080
   ssl:
