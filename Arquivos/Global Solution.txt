@@ -274,73 +274,23 @@ Entregar via portal um arquivo com os seguintes itens
 
 MASTERING RELATIONAL AND NON-RELATIONAL DATABASE:
 
-1. Modelagem de Banco de Dados Relacional (10 Pontos) (Feito em aula no dia 12/11) 
+1. Modelagem de Banco de Dados Relacional (10 Pontos) (Feito em aula no dia 12/11).
 
-• Desenvolver o modelo lógico e físico do banco de dados, garantindo que:
-• O modelo esteja na 3ª Forma Normal (3FN), com todas as cardinalidades corretas.
-• Cada entidade e relacionamento estejam coerentes com o tema “O Futuro do Trabalho” e com a solução proposta pelo grupo.
-• O modelo seja implementado no banco de dados relacional Oracle.
-• Criar todos os objetos necessários (tabelas, chaves primárias e estrangeiras, constraints, etc.).
+2. Procedures e Funções (20 Pontos) (Feito em casa no dia 14/11):
 
-2. Procedures e Funções (20 Pontos):
+Sobre a Função 1 — Conversão Manual para JSON (15 Pontos) (Feito em casa no dia 14/11):
 
-• Criar procedures para realizar os inserts no banco de dados, utilizando parâmetros e garantindo consistência dos dados.
-• Criar duas funções personalizadas, descritas a seguir, aplicadas ao contexto do tema “O Futuro do Trabalho”:
-o Função 1: responsável por converter dados relacionais em JSON manualmente construído, sem uso de funções internas do Oracle.
-o Função 2: responsável por validações e cálculos lógicos, utilizando expressões regulares e tratamento de exceções.
-• Criar triggers de auditoria para registrar transações em cada tabela (INSERT, UPDATE, DELETE).
-• Inserir no mínimo 10 registros em cada tabela utilizando as procedures de inserção — assegurando que os dados façam sentido 
-com o contexto da aplicação (dados genéricos ou fora do tema serão desconsiderados).
-• Implementar tratamento de exceções e expressões regulares, conforme boas práticas de PL/SQL.
-• Além disso:
-o Criar uma procedure para exportar um dataset no formato JSON, contendo dados relevantes da aplicação (usuários, vagas, competências, cursos etc.).
-o Esse dataset poderá ser utilizado para alimentar uma aplicação de Inteligência Artificial (IA), caso o grupo deseje implementar essa integração.
-• Nota Importante: Procedures com hard inserts ou valores que não pertençam ao contexto do tema “O Futuro do Trabalho” serão 
-desconsideradas.
+Sobre a Função 2 — Validação e Cálculo de Dados (15 Pontos) (Feito em casa no dia 14/11):
 
-Sobre a Função 1 — Conversão Manual para JSON (15 Pontos):
+Empacotamento de Objetos de Banco de Dados (10 Pontos) (Feito em casa no dia 14/11):
 
-• Crie uma Função que receba dados relacionais e retorne uma string no formato JSON.
-• A lógica de conversão deve ser desenvolvida integralmente pelo grupo, utilizando concatenação e manipulação de strings para 
-construir o JSON.
-• Proibido o uso de funções internas/built-in do Oracle, como TO_JSON, JSON_OBJECT, JSON_VALUE, JSON_QUERY, JSON_TABLE
-ou similares.
-• A função deve tratar no mínimo 3 exceções distintas, com mensagens personalizadas e registradas via DBMS_OUTPUT ou em uma 
-tabela de log.
-• O JSON gerado deve conter dados coerentes com o contexto da aplicação — por exemplo, informações de profissionais, 
-competências e vagas relacionadas ao tema O Futuro do Trabalho.
-• Exemplo de aplicação: Gerar um JSON com o perfil de um profissional, suas competências e cursos recomendados, que poderá ser 
-exportado e utilizado posteriormente em uma aplicação de IA ou módulo de recomendação de carreira.
-
- Sobre a Função 2 — Validação e Cálculo de Dados (15 Pontos):
-
-• Crie uma Função responsável por realizar validações ou cálculos lógicos dentro do contexto da solução.
-• Utilize expressões regulares (REGEXP) para verificar formatação de campos (exemplo: e-mail corporativo, CPF, código de curso 
-etc.).
-• Implemente tratamento de exceções com mensagens amigáveis, garantindo que o sistema não quebre em casos de erro de 
-entrada ou ausência de dados.
-• A lógica deve refletir a proposta do tema “O Futuro do Trabalho”, como:
-• Cálculo de nível de compatibilidade entre perfil do candidato e competências exigidas em uma vaga;
-• Validação de dados cadastrais antes da inserção no banco;
-• Verificação da aderência de um curso de requalificação às competências em alta no mercado.
-• Exemplo de aplicação: Calcular automaticamente o percentual de compatibilidade entre um usuário e 
-uma vaga, retornando uma mensagem JSON com o resultado da análise.
-
-Empacotamento de Objetos de Banco de Dados (10 Pontos):
-
-• Todos os objetos (procedures e funções) devem estar empacotados para garantir modularidade e reuso do código.
-• O empacotamento deve seguir boas práticas, agrupando logicamente os objetos conforme suas funções (ex.: pacotes de usuários, 
-competências, auditoria etc.)
 
 • Integração com Outras Linguagens do Curso (Java, C#, Mobile) (10 Pontos):
 
 • A base de dados relacional deverá ser usada como backend da aplicação, desenvolvida em Java, C# ou plataforma mobile.
 • As procedures criadas devem ser chamadas pela aplicação e sua execução demonstrada no vídeo de apresentação.
 
-• 5. Importação para MongoDB (10 Pontos):
-
-• O dataset exportado em JSON deverá ser importado para o MongoDB, criando uma estrutura de dados coerente com o modelo NoSQL.
-• A estrutura MongoDB deve respeitar os princípios de organização flexível e eficiente de documentos, facilitando consultas e integrações com APIs ou IA.
+• 5. Importação para MongoDB (10 Pontos) (Feito em casa no dia 14/11):
 
 • Demonstração em Vídeo (10 Pontos):
 

@@ -38,26 +38,9 @@ spring:
     show-sql: false
     open-in-view: false
 
-  # Redis Cache
-  spring:
-    redis:
-      host: ${REDIS_HOST:localhost}
-      port: ${REDIS_PORT:6379}
-      password: ${REDIS_PASSWORD:}
-      timeout: 2s
-      lettuce:
-        pool:
-          max-active: 20
-          max-idle: 10
-          min-idle: 5
-          max-wait: -1ms
-
-
   # Cache
   cache:
-    type: redis
-    redis:
-      time-to-live: 3600000
+    type: simple
 
   # Mensagens i18n
   messages:

@@ -40,7 +40,7 @@ public class UsuarioController {
      * GET /api/v1/usuario?page=0&size=20
      */
     @GetMapping
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Page<UsuarioDTO>> listar(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "20") int size) {
@@ -58,7 +58,7 @@ public class UsuarioController {
      * GET /api/v1/usuario/123
      */
     @GetMapping("/{id}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<UsuarioDTO> buscarPorId(@PathVariable Long id) {
         log.info("Buscando usuário por ID: {}", id);
 
@@ -71,7 +71,7 @@ public class UsuarioController {
      * GET /api/v1/usuario/email/usuario@example.com
      */
     @GetMapping("/email/{email}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<UsuarioDTO> buscarPorEmail(@PathVariable String email) {
         log.info("Buscando usuário por email: {}", email);
 
@@ -84,7 +84,7 @@ public class UsuarioController {
      * GET /api/v1/usuario/nome/João?page=0&size=10
      */
     @GetMapping("/nome/{nome}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Page<UsuarioDTO>> buscarPorNome(
             @PathVariable String nome,
             @RequestParam(defaultValue = "0") int page,
@@ -115,7 +115,7 @@ public class UsuarioController {
      * PUT /api/v1/usuario/123
      */
     @PutMapping("/{id}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<UsuarioDTO> atualizar(
             @PathVariable Long id,
             @Valid @RequestBody UpdateUsuarioDTO dto) {
@@ -131,7 +131,7 @@ public class UsuarioController {
      * DELETE /api/v1/usuario/123
      */
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> desativar(@PathVariable Long id) {
         log.info("Desativando usuário: {}", id);
 
@@ -144,7 +144,7 @@ public class UsuarioController {
      * PUT /api/v1/usuario/123/reativar
      */
     @PutMapping("/{id}/reativar")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> reativar(@PathVariable Long id) {
         log.info("Reativando usuário: {}", id);
 
@@ -157,7 +157,7 @@ public class UsuarioController {
      * GET /api/v1/usuario/sem-registros/recentes
      */
     @GetMapping("/sem-registros/recentes")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<List<UsuarioDTO>> buscarSemRegistrosRecentes() {
         log.info("Buscando usuários sem registros recentes");
 
@@ -170,7 +170,7 @@ public class UsuarioController {
      * GET /api/v1/usuario/total/ativos
      */
     @GetMapping("/total/ativos")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Long> totalAtivos() {
         log.info("Contando usuários ativos");
 

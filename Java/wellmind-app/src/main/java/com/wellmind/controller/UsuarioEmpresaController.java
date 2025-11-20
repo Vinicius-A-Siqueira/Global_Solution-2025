@@ -39,7 +39,7 @@ public class UsuarioEmpresaController {
      * GET /api/v1/vinculo/usuario/123
      */
     @GetMapping("/usuario/{usuarioId}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<List<UsuarioEmpresaDTO>> buscarPorUsuario(@PathVariable Long usuarioId) {
         log.info("Buscando vínculos do usuário: {}", usuarioId);
 
@@ -52,7 +52,7 @@ public class UsuarioEmpresaController {
      * GET /api/v1/vinculo/empresa/123?page=0&size=20
      */
     @GetMapping("/empresa/{empresaId}")
-    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Page<UsuarioEmpresaDTO>> buscarPorEmpresa(
             @PathVariable Long empresaId,
             @RequestParam(defaultValue = "0") int page,
@@ -71,7 +71,7 @@ public class UsuarioEmpresaController {
      * POST /api/v1/vinculo
      */
     @PostMapping
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<UsuarioEmpresaDTO> criar(@Valid @RequestBody CreateUsuarioEmpresaDTO dto) {
         log.info("Criando novo vínculo - Usuário: {}, Empresa: {}",
                 dto.getIdUsuario(), dto.getIdEmpresa());
@@ -85,7 +85,7 @@ public class UsuarioEmpresaController {
      * PUT /api/v1/vinculo/123/desativar
      */
     @PutMapping("/{id}/desativar")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<UsuarioEmpresaDTO> desativar(@PathVariable Long id) {
         log.info("Desativando vínculo: {}", id);
 
@@ -98,7 +98,7 @@ public class UsuarioEmpresaController {
      * PUT /api/v1/vinculo/123/reativar
      */
     @PutMapping("/{id}/reativar")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<UsuarioEmpresaDTO> reativar(@PathVariable Long id) {
         log.info("Reativando vínculo: {}", id);
 
@@ -111,7 +111,7 @@ public class UsuarioEmpresaController {
      * PUT /api/v1/vinculo/123/cargo
      */
     @PutMapping("/{id}/cargo")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<UsuarioEmpresaDTO> atualizarCargo(
             @PathVariable Long id,
             @RequestParam String cargo) {
@@ -127,7 +127,7 @@ public class UsuarioEmpresaController {
      * GET /api/v1/vinculo/empresa/123/total
      */
     @GetMapping("/empresa/{empresaId}/total")
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Long> totalAtivos(@PathVariable Long empresaId) {
         log.info("Contando colaboradores ativos da empresa: {}", empresaId);
 

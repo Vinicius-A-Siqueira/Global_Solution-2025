@@ -1,0 +1,6 @@
+mongoimport --uri "mongodb://localhost:27017/bemestar_saude_mental" --collection usuarios --file usuarios.json --jsonArray
+mongoimport --uri "mongodb://localhost:27017/bemestar_saude_mental" --collection registros_bemestar --file registros_bemestar.json --jsonArray
+mongoimport --uri "mongodb://localhost:27017/bemestar_saude_mental" --collection recomendacoes --file recomendacoes.json --jsonArray
+mongoimport --uri "mongodb://localhost:27017/bemestar_saude_mental" --collection profissionais_saude --file profissionais_saude.json --jsonArray
+mongoimport --uri "mongodb://localhost:27017/bemestar_saude_mental" --collection alertas --file alertas.json --jsonArray
+mongoimport --uri "mongodb://localhost:27017/bemestar_saude_mental" --collection sessoes_apoio --file sessoes_apoio.json --jsonArray
