@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Apenas BCrypt para hash de senhas -->
+		<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Interfaces\Repositories\" />
+	  <Folder Include="Enums\" />
+	  <Folder Include="Exceptions\" />
+	  <Folder Include="ValueObjects\" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m054ZKWU1EQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ViníciusSiqueira\\Downloads\\Vinicius\\Global_Solution-2025\\DotNet\\WellMindApi\\src\\WellMindApi.Domain\\WellMindApi.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ViníciusSiqueira\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

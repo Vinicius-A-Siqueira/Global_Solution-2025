@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "945Qp+Jq9sJztbyheRAPWeH1uXiRKn3IIYHneTTzd5g=",
+  "Source": "WellMindApi.Api",
+  "BasePath": "_content/WellMindApi.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

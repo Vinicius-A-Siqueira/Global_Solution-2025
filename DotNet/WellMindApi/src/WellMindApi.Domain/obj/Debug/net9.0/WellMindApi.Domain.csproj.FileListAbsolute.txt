@@ -1,0 +1,13 @@
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\bin\Debug\net9.0\WellMindApi.Domain.deps.json
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\bin\Debug\net9.0\WellMindApi.Domain.dll
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\bin\Debug\net9.0\WellMindApi.Domain.pdb
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\WellMindApi.Domain.csproj.AssemblyReference.cache
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\WellMindApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\WellMindApi.Domain.AssemblyInfoInputs.cache
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\WellMindApi.Domain.AssemblyInfo.cs
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\WellMindApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\WellMindApi.Domain.sourcelink.json
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\WellMindApi.Domain.dll
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\refint\WellMindApi.Domain.dll
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\WellMindApi.Domain.pdb
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Domain\obj\Debug\net9.0\ref\WellMindApi.Domain.dll

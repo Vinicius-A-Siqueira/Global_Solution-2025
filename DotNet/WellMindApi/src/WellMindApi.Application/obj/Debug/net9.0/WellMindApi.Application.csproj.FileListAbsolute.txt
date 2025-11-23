@@ -1,0 +1,16 @@
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\bin\Debug\net9.0\WellMindApi.Application.deps.json
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\bin\Debug\net9.0\WellMindApi.Application.dll
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\bin\Debug\net9.0\WellMindApi.Application.pdb
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\bin\Debug\net9.0\WellMindApi.Domain.dll
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\bin\Debug\net9.0\WellMindApi.Domain.pdb
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMindApi.Application.csproj.AssemblyReference.cache
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMindApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMindApi.Application.AssemblyInfoInputs.cache
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMindApi.Application.AssemblyInfo.cs
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMindApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMindApi.Application.sourcelink.json
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMind.F4A14F76.Up2Date
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMindApi.Application.dll
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\refint\WellMindApi.Application.dll
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\WellMindApi.Application.pdb
+C:\Users\ViníciusSiqueira\Downloads\Vinicius\Global_Solution-2025\DotNet\WellMindApi\src\WellMindApi.Application\obj\Debug\net9.0\ref\WellMindApi.Application.dll
