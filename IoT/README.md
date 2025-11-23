@@ -1,239 +1,223 @@
-# Global Solution 2025 - Sistema de Monitoramento e Bem-Estar no Trabalho
+Global Solution 2025 - Sistema de Monitoramento e Bem-Estar no Trabalho
+<div align="center">
+O Futuro do Trabalho: Saúde Mental, Bem-Estar e Produtividade
 
-::: {align="center"}
-## **O Futuro do Trabalho: Saúde Mental, Bem-Estar e Produtividade**
-:::
+</div>
 
-![image](https://github.com/user-attachments/assets/6335eded-1ce5-41f1-8fbd-7921804f3f67)
+👥 Integrantes
+Gabriel Camargo – RM557879
 
-------------------------------------------------------------------------
+Kauan Felipe – RM557954
 
-## 👥 Integrantes
+Vinicius Alves – RM551939
 
--   **Gabriel Camargo** -- RM557879\
--   **Kauan Felipe** -- RM557954\
--   **Vinicius Alves** -- RM551939
+📋 Índice
+Visão Geral
 
-------------------------------------------------------------------------
+O Problema
 
-# WellMind Vision API
+Nossa Solução
 
-API de Visão Computacional baseada em Deep Learning para detecção de
-emoções, reconhecimento facial e monitoramento de bem-estar mental em
-ambientes corporativos.
+Objetivos
 
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-green.svg)](https://fastapi.tiangolo.com/)
-[![MTCNN](https://img.shields.io/badge/MTCNN-1.0.0-orange.svg)](https://github.com/ipazc/mtcnn)
+Pontos Fortes
 
-------------------------------------------------------------------------
+Arquitetura e Tecnologias
 
-## 📋 Sumário
+Funcionalidades Principais
 
--   Visão Geral
--   Modelos de Deep Learning
--   Requisitos Atendidos
--   Instalação Rápida
--   Uso da API
--   Endpoints
--   Tecnologias
--   Arquitetura
--   Testes
--   Performance
--   Referências
--   Contato
--   Licença
+Entregas do Projeto
 
-------------------------------------------------------------------------
+Como Executar
 
-## 🎯 Visão Geral
+API de IA e Visão Computacional
 
-Sistema de visão computacional para monitorar o bem-estar emocional de
-colaboradores através de análise facial com modelos de Deep Learning.
+Endpoints
 
-### Problemas Resolvidos
+Estrutura do Projeto
 
--   Monitoramento não invasivo de check-ins voluntários\
--   Detecção precoce de estresse e fadiga\
--   Recomendações preventivas baseadas em IA\
--   Dados objetivos para programas de bem-estar corporativo
+Demonstração
 
-------------------------------------------------------------------------
+Licença
 
-## 🧠 Modelos de Deep Learning
+🌟 Visão Geral
+A Global Solution 2025 é uma plataforma completa focada em melhorar a experiência do colaborador no ambiente corporativo.
+O sistema integra IoT, Visão Computacional, Machine Learning, aplicativo mobile e backend conectado a banco híbrido, criando uma solução moderna para análise de bem-estar e comportamento no trabalho.
 
-### 1. **MTCNN (Multi-task Cascaded Convolutional Networks)**
+O objetivo é proporcionar ambientes mais saudáveis, produtivos e seguros, usando tecnologia avançada para detectar sinais de estresse, baixa ergonomia e riscos à saúde mental.
 
-**Função:** detecção facial + landmarks\
-**Características:** - Pré-treinado em WIDER FACE\
-- Detecção facial em tempo real (200--500 ms CPU)\
-- Landmarks: olhos, nariz, canto da boca\
-- Score de confiança
+🚨 O Problema
+As empresas enfrentam desafios crescentes como:
 
-### 2. **DeepFace**
+Níveis elevados de estresse e burnout
 
-**Função:** classificação de emoções (7 classes)\
-**Modelos:** VGG-Face + FER
+Posturas inadequadas durante o trabalho
 
-**Emoções classificadas:**\
-Happy, Sad, Angry, Fear, Surprise, Disgust, Neutral
+Quedas na produtividade decorrentes de má qualidade do ambiente
 
-------------------------------------------------------------------------
+Falta de monitoramento contínuo e automático
 
-## ✅ Requisitos Atendidos (FIAP)
+Dificuldades em identificar colaboradores vulneráveis
 
-  Requisito                    Implementação      Status
-  ---------------------------- ------------------ --------
-  API de Visão Computacional   FastAPI REST       ✅
-  Reconhecimento Facial        MTCNN              ✅
-  Análise de Emoções           DeepFace           ✅
-  Classificação Multi-classe   7 emoções          ✅
-  Modelos Pré-treinados        MTCNN + DeepFace   ✅
-  Integração com App           React Native       ✅
-  Documentação                 Swagger + README   ✅
+Pouca visibilidade para líderes e RH
 
-------------------------------------------------------------------------
+💡 Nossa Solução
+Propomos um sistema de monitoramento inteligente capaz de:
 
-## 📦 Instalação Rápida
+✔ Detectar posturas incorretas
+Utilizando uma rede de Visão Computacional que identifica problemas ergonômicos (pescoço curvado, ombros caídos, distância incorreta do corpo etc.).
 
-### Pré-requisitos
+✔ Analisar emoções em tempo real
+Classificação facial com Deep Learning para detectar possíveis sinais de cansaço, estresse ou desatenção.
 
--   Python 3.11+
--   pip
--   2GB RAM (mínimo)
+✔ Integrar sensores IoT
+Monitoramento de temperatura, ruído, iluminação e padrões de movimento.
 
-### Instalação
+✔ Dashboard completo para gestores
+Com gráficos, tabelas, insights e sugestões automáticas baseadas em IA.
 
-    python -m venv venv
+✔ Aplicativo mobile
+Recebimento de notificações de bem-estar e acompanhamento do histórico.
 
-Ativar ambiente:
+🎯 Objetivos
+Melhorar a ergonomia e prevenir problemas de saúde
 
-**Windows**
+Reduzir estresse e burnout
 
-    .env\Scriptsctivate
+Aumentar a produtividade e satisfação dos colaboradores
 
-Instalar dependências:
+Automatizar alertas e insights via IA
 
-    pip install fastapi uvicorn[standard] python-multipart
-    pip install opencv-python-headless pillow numpy
-    pip install mtcnn deepface
+Oferecer dados em tempo real para líderes e RH
 
-### Rodar a API
+🏆 Pontos Fortes
+🔍 Visão Computacional baseada em OpenCV + Mediapipe
 
-**Versão simplificada (MTCNN):**
+🤖 Modelo de Deep Learning treinado para classificação de postura
 
-    uvicorn main_simple:app --reload
+📱 Integração com mobile (Flutter)
 
-**Versão completa (com DeepFace):**
+🔗 Backend Node/Python com APIs REST
 
-    uvicorn main:app --reload
+🗃 Banco híbrido (PostgreSQL + Firebase Firestore)
 
-### Documentação
+📡 Sensores IoT integrados via MQTT
 
--   Swagger UI → http://localhost:8000/docs\
--   ReDoc → http://localhost:8000/redoc
+🚀 Deploy automatizado (Railway, Firebase Hosting, Render)
 
-------------------------------------------------------------------------
+🏗 Arquitetura e Tecnologias
+Backend
+Python (FastAPI) para IA
 
-## 📡 Endpoints
+Node.js/Express para API principal
 
-### **GET /health**
+MQTT para IoT
 
-Verifica status dos modelos.
+Swagger para documentação
 
-``` json
+Frontend Mobile
+Flutter
+
+Firebase Authentication
+
+Banco de Dados
+PostgreSQL (dados estruturados)
+
+Firestore (coletas rápidas e logs)
+
+IA / Visão Computacional
+OpenCV
+
+Mediapipe
+
+TensorFlow / Keras
+
+Modelos pré-treinados MobileNet / BlazePose
+
+IoT
+ESP32 / ESP8266
+
+Sensores DHT11, LDR, Microfone MEMS
+
+🔧 Funcionalidades Principais
+✔ Detecção de postura com IA
+
+✔ Classificação de emoções
+
+✔ Monitoramento ambiental IoT
+
+✔ Alertas automáticos em tempo real
+
+✔ Histórico de saúde e produtividade
+
+✔ Dashboard interativo
+
+✔ Relatórios automatizados
+
+📦 Entregas do Projeto
+✔ Código Fonte completo (Backend + IA + Mobile + IoT)
+
+✔ API com documentação (Swagger)
+
+✔ Deploy funcional da IA e do backend
+
+✔ Vídeo demonstrativo
+
+✔ README profissional
+
+▶ Como Executar
+1. Clonar o repositório
+git clone https://github.com/seu-repositorio.git
+cd seu-projeto
+2. Criar ambiente virtual
+python -m venv venv
+source venv/bin/activate # Linux/Mac
+venv\Scripts\activate    # Windows
+3. Instalar dependências
+pip install -r requirements.txt
+4. Executar a API
+uvicorn app:app --reload
+🤖 API de IA e Visão Computacional
+Modelo usado:
+MobileNetV2 para classificação de postura
+
+Mediapipe Holistic para keypoints
+
+OpenCV para pré-processamento
+
+A API recebe imagens e retorna:
+
 {
-  "status": "saudável",
-  "models": {"mtcnn": "carregado"}
+  "posture": "encurvado",
+  "confidence": 0.91,
+  "recommendation": "Ajustar a posição da coluna e elevar o monitor."
 }
-```
+🔌 Endpoints
+POST /predict/posture
+Envia uma imagem e recebe a classificação.
 
-------------------------------------------------------------------------
+POST /predict/emotion
+Classifica emoção facial.
 
-### **POST /api/v1/vision/detect-face**
+GET /health
+Checagem de status da API.
 
-Detecta faces via MTCNN.
+📂 Estrutura do Projeto
+/IoT
+  /models
+  /notebooks
+  /dataset
+  /api
+  |   app.py
+  |   utils.py
+  |   posture_model.h5
+  /mobile
+  /backend
+README.md
+requirements.txt
+🎥 Demonstração
+📌 Link do vídeo (YouTube): a ser adicionado
+📌 Mostra: IA funcionando + Mobile + IoT + Dashboard
 
-#### Exemplo de resposta:
-
-``` json
-{
-  "faces_detected": 1,
-  "face_locations": [{
-    "bounding_box": {"x": 120, "y": 85, "width": 200, "height": 250},
-    "confidence": 0.99
-  }],
-  "model_used": "MTCNN"
-}
-```
-
-------------------------------------------------------------------------
-
-### **POST /api/v1/vision/analyze-emotion**
-
-Classifica emoções e gera recomendações.
-
-``` json
-{
-  "primary_emotion": "happy",
-  "emotion_scores": {
-    "happy": 0.85,
-    "neutral": 0.10,
-    "sad": 0.02
-  },
-  "stress_level": "Low",
-  "fatigue_detected": false
-}
-```
-
-------------------------------------------------------------------------
-
-## 💡 Exemplo de Uso
-
-### Python
-
-``` python
-import requests
-
-url = "http://localhost:8000/api/v1/vision/detect-face"
-
-with open("selfie.jpg", "rb") as f:
-    files = {"file": f}
-    response = requests.post(url, files=files)
-    print(response.json())
-```
-
-### cURL
-
-    curl -X POST "http://localhost:8000/api/v1/vision/detect-face" -F "file=@foto.jpg"
-
-------------------------------------------------------------------------
-
-## 🛠️ Tecnologias
-
--   FastAPI\
--   Uvicorn\
--   Pydantic\
--   OpenCV\
--   NumPy\
--   MTCNN\
--   TensorFlow\
--   DeepFace
-
-------------------------------------------------------------------------
-
-## 🏗️ Arquitetura
-
-Aplicativo Mobile → FastAPI Backend → MTCNN / DeepFace
-
-------------------------------------------------------------------------
-
-## 📞 Contato
-
--   Email: contato@wellmind.com
-
-------------------------------------------------------------------------
-
-## 📄 Licença
-
-MIT License © 2025
+📄 Licença
+Projeto desenvolvido exclusivamente para fins acadêmicos – FIAP 2025.

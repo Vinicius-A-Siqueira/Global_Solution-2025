@@ -1,27 +1,3 @@
-ADVANCED BUSINESS DEVELOPMENT WITH .NET:
-
-Desenvolver uma API RESTful em .NET que represente uma solução tecnológica voltada ao tema “O Futuro do 
-Trabalho”;
-• 1- Boas Práticas REST (30 pts)
-• Implementar paginação, HATEOAS e status codes adequados.
-• Uso correto dos verbos HTTP (GET, POST, PUT, DELETE).
-• 2 - Monitoramento e Observabilidade API (15 pts)
-• Implementar Health Check, Logging e Tracing
-• 3 - Versionamento da API (10 pts) 
-• Estruturar versões da API (ex: /api/v1, /api/v2) com controle adequado em rotas.
-• Explicitar no README
-• 4 - Integração e Persistência (30 pts)
-• Integração com banco de dados relacional ou não relacional (Oracle, SQL Server ou MongoDB).
-• Utilização do Entity Framework Core com Migrations.
-• 5 - Testes Integrados (15 pts)
-• Implementar testes automatizados (unitários ou de integração) com xUnit;
-
-Itens opcionais
-• ML.NET:
-• Integração de um modelo de aprendizado de máquina via ML.NET, demonstrando uma aplicação prática
-• Autenticação e Segurança
-• Implementar autenticação via JWT ou API Key (opcional conforme o contexto do grupo).
-• Caso o projeto não possua usuários ou claims, pode-se optar apenas pela API Key.
 
 COMPLIANCE, QUALITY ASSURANCE & TESTS:
 

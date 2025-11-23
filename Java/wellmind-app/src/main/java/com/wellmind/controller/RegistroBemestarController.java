@@ -92,11 +92,8 @@ public class RegistroBemestarController {
      * POST /api/v1/wellness
      */
     @PostMapping
-<<<<<<< HEAD
     //@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
-=======
    // @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
->>>>>>> f01dfded1dbd18430d53af67d3d2c7c82f64d462
     public ResponseEntity<RegistroBemestarDTO> criar(@Valid @RequestBody CreateRegistroBemestarDTO dto) {
         log.info("Criando novo registro de bem-estar para usuário: {}", dto.getIdUsuario());
 
@@ -109,11 +106,8 @@ public class RegistroBemestarController {
      * GET /api/v1/wellness/alertas
      */
     @GetMapping("/alertas")
-<<<<<<< HEAD
    //@PreAuthorize("hasRole('ADMIN')")
-=======
     //@PreAuthorize("hasRole('ADMIN')")
->>>>>>> f01dfded1dbd18430d53af67d3d2c7c82f64d462
     public ResponseEntity<List<RegistroBemestarDTO>> buscarComAlerta() {
         log.info("Buscando registros com alerta");
 

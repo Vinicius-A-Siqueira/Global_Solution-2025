@@ -37,19 +37,17 @@ public class SecurityConfig {
         http
                 .csrf(AbstractHttpConfigurer::disable)
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
-<<<<<<< HEAD
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authz -> authz
                         .anyRequest().permitAll()
                 )
-=======
                 .sessionManagement(session ->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authz ->
                         authz.anyRequest().permitAll() // Liberação total dos endpoints
                 )
                 // O filtro JWT permanece, mas não é obrigatório em ambiente público
->>>>>>> f01dfded1dbd18430d53af67d3d2c7c82f64d462
+
                 .addFilterBefore(
                         new JwtAuthenticationFilter(jwtTokenProvider, userDetailsService),
                         UsernamePasswordAuthenticationFilter.class
